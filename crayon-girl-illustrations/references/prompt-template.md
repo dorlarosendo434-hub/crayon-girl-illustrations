@@ -1,0 +1,64 @@
+# 生图提示词模板
+
+每张图单独生成。根据正文内容替换变量，不要把多张图拼在一起。
+
+```text
+Generate one standalone 16:9 horizontal Chinese article illustration.
+
+Visual DNA:
+Warm crayon-style hand-drawn illustration. Light blue or blue-white crayon background with subtle crayon grain. Clean, airy, lots of empty space. Gentle palette with blue, brown, cream, orange, and tiny red accents. Sparse short handwritten Chinese annotations. Not commercial vector art, PPT infographic, children's book, 3D, realistic photo, or dense explainer.
+
+Canonical recurring IP character required:
+Match assets/ip-reference/05-canonical-beret-plump-limbs.png as the highest-priority identity reference. Use strict two-head-tall proportions: total height approximately two head-heights; enlarged head and face occupy about half the total height; compact body from chin to shoe soles occupies about one head-height. Wear the same small warm-brown artist beret as the canonical reference: closely fitted to the enlarged head, slightly tilted, with a tiny top nub; it must not cover the fringe, flatten the hair, or reduce hair volume. No other hat, headband, clip, or accessory. Use abundant thick long black hair with strong volume on both sides and behind the body, soft waves, dark-blue/black crayon texture, side-parted fringe and one curved front strand. Keep warm brown eyes, pearl earrings, gentle capable expression, and the same round face.
+
+Use short, rounded, visibly plump limbs: gently thick upper arms and forearms, rounded elbows, small chubby hands, short rounded thighs and calves, soft knees, compact chunky ankles. No thin stick limbs, while keeping an adult creator personality. Fit clothing and accessories to the compact body: cream short-sleeve cropped blouse ending at the high waist, high-waisted short brown plaid A-line skirt above the knees, tiny rounded brown crossbody pouch about one hand in size at the upper hip, thin short fitted strap, tiny brown Mary Jane shoes and short light socks. Keep her thoughtful and capable, not infant-like. She must perform the core conceptual action, not decorate the scene.
+
+Theme:
+{正文配图主题}
+
+Structure type:
+{Workflow / 系统局部 / 前后对比 / 角色状态 / 概念隐喻 / 方法分层 / 地图路线 / 小漫画分镜}
+
+Core idea:
+{核心意思}
+
+Composition:
+{女孩在哪里、正在做什么、主要物件、信息如何流动}
+
+Suggested elements:
+{元素1} / {元素2} / {元素3} / {元素4}
+
+Chinese handwritten labels:
+{标注词1} / {标注词2} / {标注词3} / {标注词4} / {可选标注词5}
+
+Color use:
+Light blue for background and secondary notes. Brown for outfit, stable structures and paths. Cream for the cropped top and warm highlights. Orange for main flow. Red only for warnings or results. Dark blue or black for hair and important outlines.
+
+Constraints:
+One image explains one core structure. Keep the main subject around 40%-60% of the canvas and at least 30% calm empty space. Maintain the exact canonical identity in every pose: the exact small brown beret must remain; no other headwear; no reduced hair volume; no thin or stick-like limbs; no changed face, eye color or earrings; no 2.5-head, 3-head, long torso, long skirt, long legs, or realistic adult anatomy; no long blouse, large satchel, oversized bag, long strap or adult-size shoes. Use at most 5-8 short labels. No top-left title, formal diagram, course slide, commercial poster, copied reference composition, or watermark.
+```
+
+## 新手解释型配图补充模板
+
+当任务是解释“是什么、如何工作、包含什么、能否复用或修改”时，在基础模板中追加：
+
+```text
+Beginner explainer requirement:
+Do not represent the answer as several isolated icons. Build one coherent physical story around a single main object.
+
+Show these layers when relevant:
+1. Definition: what the concept is, represented by one clear main object.
+2. Contents: reveal 3-5 essential internal parts.
+3. Operation: show one readable input -> processing -> output path.
+4. Capabilities: show reuse, modification, checking, or customization through physical actions.
+
+Use concrete noun-and-verb labels rather than vague benefit words. A beginner should be able to explain what it is and how it works after viewing the image. For this mode, 8-11 short labels are allowed if they follow one clear reading path. Keep it a warm crayon scene, not a PPT grid or formal flowchart.
+```
+
+## 一致性修正提示
+
+```text
+Edit or regenerate this illustration to match the canonical crayon girl in assets/ip-reference/05-canonical-beret-plump-limbs.png. Preserve the scene and core meaning, but correct all identity drift: restore the exact small fitted warm-brown beret and remove any other head accessory; enlarge the head and face; restore strict two-head-tall proportions; restore abundant thick long black hair with the same side part and curved front strand; restore short rounded plump arms, legs, hands and ankles; preserve warm brown eyes and pearl earrings; restore the cropped cream short-sleeve blouse, high-waisted short brown plaid A-line skirt, hand-sized rounded pouch, thin short strap, and tiny brown shoes. Do not change the canonical face, hair color, outfit palette, crayon texture, or personality.
+```
+
+

@@ -3,7 +3,13 @@
 每张图单独生成。根据正文内容替换变量，不要把多张图拼在一起。
 
 ```text
-Generate one standalone 16:9 horizontal Chinese article illustration.
+Generate one standalone Chinese content illustration in the selected aspect ratio.
+
+Canvas mode:
+{默认横图：strict 16:9 horizontal canvas for article body illustration / 竖图：strict 3:4 portrait canvas for Xiaohongshu or Xiaolushu}
+
+Content role:
+{正文/轮播内页：quiet title-safe area, sparse annotations / 封面：large readable Chinese title + one short content summary + girl directly interacting with title or main object}
 
 Visual DNA:
 Warm crayon-style hand-drawn illustration. Light blue or blue-white crayon background with subtle crayon grain. Clean, airy, lots of empty space. Gentle palette with blue, brown, cream, orange, and tiny red accents. Sparse short handwritten Chinese annotations. Not commercial vector art, PPT infographic, children's book, 3D, realistic photo, or dense explainer.
@@ -25,6 +31,12 @@ Core idea:
 Composition:
 {女孩在哪里、正在做什么、主要物件、信息如何流动}
 
+Portrait-only layout rule:
+For a 3:4 body or carousel page, reserve the top 15% as calm empty space for a future platform title; place one main object or state in the middle and the girl performing the key action in the lower half. Create one clear top-to-bottom reading path. Do not compress a wide left-to-right workflow, two-column comparison, or long horizontal route into the portrait canvas.
+
+Cover-only layout rule:
+For a cover, do not leave an empty title-safe area. Put the exact large Chinese main title "{封面主标题，8-16字，最多两行}" in the upper half as the first visual layer. Put the exact short summary "{封面内容总结，12-24字}" below or beside it as the third visual layer. Make the girl directly hold, pull, stamp, circle, deliver, or emerge from the title or main object. The girl and the core object form the second visual layer. Keep the cover to one judgement, not a dense explainer.
+
 Suggested elements:
 {元素1} / {元素2} / {元素3} / {元素4}
 
@@ -35,7 +47,7 @@ Color use:
 Light blue for background and secondary notes. Brown for outfit, stable structures and paths. Cream for the cropped top and warm highlights. Orange for main flow. Red only for warnings or results. Dark blue or black for hair and important outlines.
 
 Constraints:
-One image explains one core structure. Keep the main subject around 40%-60% of the canvas and at least 30% calm empty space. Maintain the exact canonical identity in every pose: the exact small brown beret must remain; no other headwear; no reduced hair volume; no thin or stick-like limbs; no changed face, eye color or earrings; no 2.5-head, 3-head, long torso, long skirt, long legs, or realistic adult anatomy; no long blouse, large satchel, oversized bag, long strap or adult-size shoes. Use at most 5-8 short labels. No top-left title, formal diagram, course slide, commercial poster, copied reference composition, or watermark.
+One image explains one core structure. Keep the main subject around 40%-60% of the canvas and at least 30% calm empty space. For a 3:4 body or carousel page, use only 3-6 short labels and preserve the top 15% as empty space with no title or critical visual. For a cover, prioritize the exact main title and summary over extra labels; do not add a generic top-left type label. Maintain the exact canonical identity in every pose: the exact small brown beret must remain; no other headwear; no reduced hair volume; no thin or stick-like limbs; no changed face, eye color or earrings; no 2.5-head, 3-head, long torso, long skirt, long legs, or realistic adult anatomy; no long blouse, large satchel, oversized bag, long strap or adult-size shoes. No formal diagram, course slide, commercial poster, copied reference composition, or watermark.
 ```
 
 ## 新手解释型配图补充模板

@@ -1,7 +1,7 @@
 interface:
   display_name: "两头身蜡笔女孩配图"
-  short_description: "生成戴小贝雷帽、胖乎四肢的两头身蜡笔女孩IP正文配图，并强制校验形象一致性"
-  default_prompt: "Use $crayon-girl-illustrations to 为这篇中文文章设计并生成几张形象一致的两头身蜡笔女孩正文配图。"
+  short_description: "生成一致的两头身蜡笔女孩横图、3:4竖图和互动封面"
+  default_prompt: "Use $crayon-girl-illustrations to 为这篇中文内容生成一张有大标题和IP互动的3:4封面，以及几张配套正文图。"
 policy:
   allow_implicit_invocation: true
 

@@ -105,3 +105,20 @@ crayon-girl-illustrations/
 ## License
 
 [MIT](LICENSE)
+
+## 免责声明
+
+本项目按现状提供，不承诺适用于特定用途。许可声明用于明确作者的授权意图，不构成针对具体司法辖区或纠纷的法律意见。
+
+## 关注与交流
+
+欢迎关注公众号，获取 AI 配图、个人 IP、创作案例和 AI Skill 实操分享；也可以添加微信进群，交流 AI 创作与内容工作流。非诚勿扰。
+
+添加微信时，请备注 **「AI交流」**。
+
+<table>
+  <tr>
+    <td width="50%" align="center"><strong>添加微信</strong><br><sub>备注「AI交流」，进群交流工作流</sub><br><img src="assets/contact/wechat.png" alt="微信二维码" width="300"></td>
+    <td width="50%" align="center"><strong>关注公众号</strong><br><sub>获取 AI 配图与 Skill 实操案例</sub><br><img src="assets/contact/wechat-official-account.jpg" alt="公众号二维码" width="300"></td>
+  </tr>
+</table>

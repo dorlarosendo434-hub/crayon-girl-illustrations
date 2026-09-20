@@ -6,11 +6,18 @@
 
 ![两头身蜡笔女孩](crayon-girl-illustrations/assets/ip-reference/05-canonical-beret-plump-limbs.png)
 
+## 六套配色
+
+在保持角色身份色不变的前提下，可以选择经典绿、薰衣草、安全蓝、人民红、文艺琥珀和午夜档案。六套方案都使用浅色背景，深色只承担轮廓、短文字和小面积重点。
+
+![六套配图样式](crayon-girl-illustrations/assets/palette-preview/six-palette-style-sheet.png)
+
 ## 主要特点
 
 - 生成 16:9 中文文章和公众号正文配图
 - 支持文章配图规划和 shot list
 - 固定两头身蜡笔女孩 IP
+- 内置 6 套浅背景配色，可指定或按内容自动选择
 - 强制校验脸型、发型、头身、穿搭和配色一致性
 - 支持流程、前后对比、概念隐喻、路线和新手解释图
 - 每张图只围绕一个核心问题组织信息
@@ -55,6 +62,13 @@ Use $crayon-girl-illustrations 分析这篇文章哪里适合配图，
 Use $crayon-girl-illustrations 为下面这篇中文文章生成 4 张正文配图。
 ```
 
+### 指定配色
+
+```text
+Use $crayon-girl-illustrations 使用“薰衣草”配色，
+为下面这篇文章生成 3 张正文配图，所有图片保持浅色背景。
+```
+
 ### 解释一个新手概念
 
 ```text
@@ -84,11 +98,14 @@ crayon-girl-illustrations/
 ├── agents/
 │   └── openai.yaml
 ├── assets/
-│   └── ip-reference/
-│       └── 05-canonical-beret-plump-limbs.png
+│   ├── ip-reference/
+│   │   └── 05-canonical-beret-plump-limbs.png
+│   └── palette-preview/
+│       └── six-palette-style-sheet.png
 └── references/
     ├── composition-patterns.md
     ├── crayon-girl-ip.md
+    ├── palette-system.md
     ├── prompt-template.md
     ├── qa-checklist.md
     └── style-dna.md

@@ -12,7 +12,7 @@ Content role:
 {正文/轮播内页：quiet title-safe area, sparse annotations / 封面：large readable Chinese title + one short content summary + girl directly interacting with title or main object}
 
 Visual DNA:
-Warm crayon-style hand-drawn illustration. Light blue or blue-white crayon background with subtle crayon grain. Clean, airy, lots of empty space. Gentle palette with blue, brown, cream, orange, and tiny red accents. Sparse short handwritten Chinese annotations. Not commercial vector art, PPT infographic, children's book, 3D, realistic photo, or dense explainer.
+Warm crayon-style hand-drawn illustration. Use the selected palette's required pale background with subtle crayon grain. The pale background and calm empty space cover at least 70% of the canvas. Clean, airy, restrained color, sparse short handwritten Chinese annotations. Not commercial vector art, PPT infographic, children's book, 3D, realistic photo, or dense explainer.
 
 Canonical recurring IP character required:
 Match assets/ip-reference/05-canonical-beret-plump-limbs.png as the highest-priority identity reference. Use strict two-head-tall proportions: total height approximately two head-heights; enlarged head and face occupy about half the total height; compact body from chin to shoe soles occupies about one head-height. Wear the same small warm-brown artist beret as the canonical reference: closely fitted to the enlarged head, slightly tilted, with a tiny top nub; it must not cover the fringe, flatten the hair, or reduce hair volume. No other hat, headband, clip, or accessory. Use abundant thick long black hair with strong volume on both sides and behind the body, soft waves, dark-blue/black crayon texture, side-parted fringe and one curved front strand. Keep warm brown eyes, pearl earrings, gentle capable expression, and the same round face.
@@ -43,11 +43,14 @@ Suggested elements:
 Chinese handwritten labels:
 {标注词1} / {标注词2} / {标注词3} / {标注词4} / {可选标注词5}
 
+Palette:
+{经典绿 / 薰衣草 / 安全蓝 / 人民红 / 文艺琥珀 / 午夜档案；从 references/palette-system.md 复制该方案的浅底、主色、辅助色、浅块和深墨}
+
 Color use:
-Light blue for background and secondary notes. Brown for outfit, stable structures and paths. Cream for the cropped top and warm highlights. Orange for main flow. Red only for warnings or results. Dark blue or black for hair and important outlines.
+Use the selected palette's pale background across the full canvas. Apply its main and supporting colors to scene objects, paths, paper notes and annotations. Limit dark colors to outlines, short text and small accents; no dark full-width header or large dark block. Keep the girl's black hair, warm-brown beret, cream cropped top, brown plaid skirt, brown pouch and brown shoes unchanged across palettes.
 
 Constraints:
-One image explains one core structure. Keep the main subject around 40%-60% of the canvas and at least 30% calm empty space. For a 3:4 body or carousel page, use only 3-6 short labels and preserve the top 15% as empty space with no title or critical visual. For a cover, prioritize the exact main title and summary over extra labels; do not add a generic top-left type label. Maintain the exact canonical identity in every pose: the exact small brown beret must remain; no other headwear; no reduced hair volume; no thin or stick-like limbs; no changed face, eye color or earrings; no 2.5-head, 3-head, long torso, long skirt, long legs, or realistic adult anatomy; no long blouse, large satchel, oversized bag, long strap or adult-size shoes. No formal diagram, course slide, commercial poster, copied reference composition, or watermark.
+One image explains one core structure. Keep the main subject around 40%-60% of the canvas, at least 30% calm empty space, and at least 70% pale background or quiet light area. No dark full-canvas background, large dark rectangle, strong gradient or heavy shadow. For a 3:4 body or carousel page, use only 3-6 short labels and preserve the top 15% as empty space with no title or critical visual. For a cover, prioritize the exact main title and summary over extra labels; do not add a generic top-left type label. Maintain the exact canonical identity in every pose: the exact small brown beret must remain; no other headwear; no reduced hair volume; no thin or stick-like limbs; no changed face, eye color or earrings; no 2.5-head, 3-head, long torso, long skirt, long legs, or realistic adult anatomy; no long blouse, large satchel, oversized bag, long strap or adult-size shoes. No formal diagram, course slide, commercial poster, copied reference composition, or watermark.
 ```
 
 ## 新手解释型配图补充模板

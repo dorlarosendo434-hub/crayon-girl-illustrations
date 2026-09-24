@@ -4,7 +4,7 @@
 
 它会先理解文章中的观点、流程、状态和隐喻，再使用固定的两头身蜡笔女孩 IP，把内容转成温暖、清爽、易读的手绘解释图。
 
-![两头身蜡笔女孩](crayon-girl-illustrations/assets/ip-reference/05-canonical-beret-plump-limbs.png)
+![专属 IP 配图工作台](assets/skill-overview-16x9.png)
 
 ## 六套配色
 

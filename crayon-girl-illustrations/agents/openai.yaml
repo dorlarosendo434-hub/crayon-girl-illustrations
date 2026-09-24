@@ -1,7 +1,7 @@
 interface:
   display_name: "两头身蜡笔女孩配图"
-  short_description: "生成一致的两头身蜡笔女孩横图、3:4竖图和互动封面"
-  default_prompt: "Use $crayon-girl-illustrations to 为这篇中文内容生成一张有大标题和IP互动的3:4封面，以及几张配套正文图。"
+  short_description: "先建立专属两头身蜡笔IP，再生成横图、竖图和互动封面"
+  default_prompt: "Use $crayon-girl-illustrations to 先确认我的专属IP已初始化，再为这篇中文内容生成一张3:4互动封面和几张配套正文图。"
 policy:
   allow_implicit_invocation: true
 

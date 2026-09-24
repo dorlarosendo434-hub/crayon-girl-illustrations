@@ -1,0 +1,3 @@
+# Per-user identity files are created during onboarding and must not be published.
+assets/ip-reference/user/
+references/user-ip-profile.md
